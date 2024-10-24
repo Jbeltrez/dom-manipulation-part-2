@@ -49,7 +49,8 @@ let menuLinks = [
   })
   
   
-  
+//   below function works, however the link needs to be clicked twice 
+// to be able to get the dropdown and it also doesn't set the style back to zero
   topMenuEl.addEventListener('click', (e) => {
     // console.log(e);
     e.preventDefault(); 
